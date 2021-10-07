@@ -97,6 +97,7 @@ function renderWin(div) {
   else {
     messageEl.innerText = `You don did it! You found the mystery number ${secretNum} in ${guessList.length} guesses!`
   }
+  confetti.start(2500)
   setTimeout(function(){
     kazoo.play();
   },1000);
