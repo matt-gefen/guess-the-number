@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+body {
+  background-color: #181a1b;
+  color: #d1cdc7;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+#prev-guesses-msg {
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+#prev-guesses {
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+#guess-button,
+#reset-button
+  {
+  margin-left: 24px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#guess-input {
+  padding: 5px;
+  border-radius: .25rem;
+}
+
+.error {
+  color: #FF0075
+}
+
+.winner {
+  color: #7fff00;
+}
+
+.low {
+  color: cornflowerblue
+}
+
+.high {
+  color:sandybrown;
+}
